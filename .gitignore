@@ -1,20 +1,28 @@
 # Python
 __pycache__/
-*.pyc
-*.pyo
-*.pyd
+*.py[cod]
+*$py.class
 
-# Virtual Environments
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Virtual environments
 venv/
 env/
-.env
+.env/
 
 # Database
 *.db
+*.sqlite3
 
 # IDE
-.vscode/
 .idea/
+.vscode/
 
-# Misc
-.DS_Store
+# Environment variables
+.env
+
+# Logs
+*.log
