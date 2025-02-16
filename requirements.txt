@@ -1,0 +1,3 @@
+SQLAlchemy
+discord.py
+sqlalchemy
