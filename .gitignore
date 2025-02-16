@@ -3,26 +3,26 @@ __pycache__/
 *.py[cod]
 *$py.class
 
-# Distribution / packaging
-dist/
-build/
-*.egg-info/
+# SQLite database
+*.db
 
-# Virtual environments
-venv/
-env/
-.env/
+# Environment variables
+.env
+
+# IDE settings
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# System files
+.DS_Store
+Thumbs.db
+
 
 # Database
 *.db
 *.sqlite3
 
-# IDE
-.idea/
-.vscode/
 
-# Environment variables
-.env
-
-# Logs
-*.log
