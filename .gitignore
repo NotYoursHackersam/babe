@@ -3,15 +3,13 @@ __pycache__/
 *.py[cod]
 *$py.class
 
-# Distribution / packaging
-dist/
-build/
-*.egg-info/
-
 # Virtual environments
 venv/
 env/
 .env  # Keep local secrets out of Git
+
+# Logs
+*.log
 
 # Database files
 *.db
@@ -20,9 +18,6 @@ env/
 # IDE settings
 .idea/
 .vscode/
-
-# Logs
-*.log
 
 # Railway-specific (ensure these are NOT ignored)
 !requirements.txt
