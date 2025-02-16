@@ -1,8 +1,4 @@
 SQLAlchemy
 aiohttp
-discord.py==2.3.2
-frozenlist
-sqlalchemy
-yarl
 discord.py
 sqlalchemy
