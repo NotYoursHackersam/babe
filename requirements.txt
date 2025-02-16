@@ -1,3 +1,4 @@
 SQLAlchemy
+aiohttp
 discord.py
 sqlalchemy
