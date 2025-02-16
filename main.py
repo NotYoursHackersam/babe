@@ -262,12 +262,15 @@ def main():
     bot_token = os.environ.get('BOT_TOKEN')
     allowed_role_id = os.environ.get('ALLOWED_ROLE_ID')
     
+    # Railway.app compatibility: Use PORT environment variable if available
+    port = int(os.environ.get('PORT', 8080))
+    
     if not client_id and not bot_token:
         print("🚨 Oops! Both CLIENT_ID 🆔 and BOT_TOKEN 🔑 environment variables are missing. 🚨")
     elif not client_id:
         print("🚨 Oops! The CLIENT_ID 🆔 environment variable is missing. 🚨")
     elif not bot_token:
-        print("🚨 Oops! The BOT_TOKEN 🔑 environment variable is missing. 🚨")
+        print("🚨 Oops! The BOT_TOKEN 🔑 environment variables is missing. 🚨")
     elif not allowed_role_id:
         print("🚨 Oops! The ALLOWED_ROLE_ID 🛡️ environment variable is missing. 🚨")
     
