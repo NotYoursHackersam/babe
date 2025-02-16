@@ -1,23 +1,23 @@
-# Python cache files
+# Python
 __pycache__/
-*.py[cod]
-*$py.class
+*.pyc
+*.pyo
+*.pyd
 
-# Virtual environments
+# Virtual Environments
 venv/
 env/
-.env  # Keep local secrets out of Git
+.env
 
-# Logs
-*.log
-
-# Database files
+# Database
 *.db
-*.sqlite3
 
-# IDE settings
-.idea/
+# IDE
 .vscode/
+.idea/
+
+# Misc
+.DS_Store
 
 # Railway-specific (ensure these are NOT ignored)
 !requirements.txt
