@@ -18,7 +18,3 @@ env/
 
 # Misc
 .DS_Store
-
-# Railway-specific (ensure these are NOT ignored)
-!requirements.txt
-!Procfile
