@@ -1,26 +1,28 @@
-# Misc
-.DS_Store
-
 # Python
 __pycache__/
 *.py[cod]
 *$py.class
-*.pyc
-*.pyo
-*.pyd
 
-# Virtual Environments
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Virtual environments
 venv/
 env/
-.env
+.env/
 
 # Database
 *.db
-database.db
-# IDE
-.vscode/
-.idea/
+*.sqlite3
 
-# OS
-.DS_Store
-Thumbs.db
+# IDE
+.idea/
+.vscode/
+
+# Environment variables
+.env
+
+# Logs
+*.log
