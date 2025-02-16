@@ -1,28 +1,29 @@
-# Python
+# Python cache files
 __pycache__/
 *.py[cod]
 *$py.class
 
-# SQLite database
-*.db
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
 
-# Environment variables
-.env
+# Virtual environments
+venv/
+env/
+.env  # Keep local secrets out of Git
+
+# Database files
+*.db
+*.sqlite3
 
 # IDE settings
-.vscode/
 .idea/
+.vscode/
 
 # Logs
 *.log
 
-# System files
-.DS_Store
-Thumbs.db
-
-
-# Database
-*.db
-*.sqlite3
-
-
+# Railway-specific (ensure these are NOT ignored)
+!requirements.txt
+!Procfile
